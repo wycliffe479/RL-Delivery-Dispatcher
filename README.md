@@ -30,11 +30,17 @@ This project demonstrates how AI can improve logistics and delivery operations t
 
 Category	    Technologies
 Language	    Python 3.10+
+
 Backend     	Flask / FastAPI
+
 AI            Reinforcement Learning
+
 Libraries	    NumPy, Pandas
+
 Deployment	  Docker, Render
+
 Version Control	Git & GitHub
+
 
 📂 Project Structure
 
