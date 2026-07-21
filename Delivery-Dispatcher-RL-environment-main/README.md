@@ -1,61 +1,25 @@
-# 🚀 Delivery Dispatcher
-
-🔗 **Live Demo:** https://huggingface.co/spaces/shyamalagaddeepogu/project1
-
+---
+title: RL Delivery Dispatcher
+emoji: 🚚
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+pinned: false
 ---
 
-## 📌 Overview
+# Delivery Dispatcher RL Environment
 
-Delivery Dispatcher is a smart system designed to optimize and manage delivery operations efficiently.
-It provides real-time insights and interactive controls through a clean dashboard interface.
+A reinforcement learning environment simulating delivery dispatch for training intelligent routing agents.
 
----
+## Overview
+This repository contains the environment, server endpoints, and inference pipeline for training and evaluating reinforcement learning agents on delivery dispatch tasks.
 
-## ⚙️ Features
-
-* 📊 Interactive dashboard for monitoring
-* ⚡ Real-time processing
-* 🧠 Intelligent backend logic
-* 🌐 Deployed using Hugging Face Spaces
-
----
-
-## 🛠️ Tech Stack
-
-* Python (Flask)
-* HTML, CSS, JavaScript
-* Docker
-* Hugging Face Spaces (Deployment)
-
----
-
-## ▶️ Run Locally
+## Local Setup & Usage
 
 ```bash
-git clone https://github.com/shyamalagaddeepogu-jpg/my-project.git
-cd my-project
+# Install dependencies
 pip install -r requirements.txt
-python app.py
-```
 
-Then open:
-
-```
-http://127.0.0.1:5000
-```
-
----
-
-## 🌐 Deployment
-
-This project is deployed using **Hugging Face Spaces (Docker)**.
-
----
-
-
-
-## 🙌 Author
-
-* Shyamala Gaddeepogu
-* Paul Wycliffe
-* Likita Boreddy
+# Run server
+python server/app.py
