@@ -1,100 +1,139 @@
-🚚 RL Delivery Dispatcher
+# 🚚 RL Delivery Dispatcher
 
 An intelligent delivery dispatching system powered by Reinforcement Learning that optimizes driver assignment, delivery routes, and operational efficiency in dynamic environments.
 
-🌐 Live Demo:
-https://rl-delivery-dispatcher.onrender.com
+[![Live Demo](https://img.shields.io/badge/demo-online-brightgreen)](https://rl-delivery-dispatcher.onrender.com)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 
-📖 Overview
+**🌐 Live Demo:** [rl-delivery-dispatcher.onrender.com](https://rl-delivery-dispatcher.onrender.com)
 
-RL Delivery Dispatcher is a Reinforcement Learning-based web application that simulates a real-world delivery system. The RL agent learns to assign orders to drivers efficiently while minimizing delivery time and travel distance.
+---
+
+## 📖 Overview
+
+**RL Delivery Dispatcher** is a Reinforcement Learning-based web application that simulates a real-world delivery system. The RL agent learns to assign orders to drivers efficiently while minimizing delivery time and travel distance.
 
 This project demonstrates how AI can improve logistics and delivery operations through intelligent decision-making.
 
-✨ Features
+---
 
-🤖 Reinforcement Learning-powered dispatching
+## ✨ Features
 
-🚚 Smart driver-to-order assignment
+- 🤖 Reinforcement Learning-powered dispatching
+- 🚚 Smart driver-to-order assignment
+- ⚡ Real-time delivery simulation
+- 📊 Performance analytics dashboard
+- 📈 Reward and efficiency visualization
+- 🐳 Docker support
+- ☁️ Cloud deployment on Render
 
-⚡ Real-time delivery simulation
+---
 
-📊 Performance analytics dashboard
+## 🛠️ Tech Stack
 
-📈 Reward and efficiency visualization
-🐳 Docker support
+| Category         | Technologies         |
+|-------------------|----------------------|
+| Language          | Python 3.10+         |
+| Backend           | Flask / FastAPI      |
+| AI                | Reinforcement Learning |
+| Libraries         | NumPy, Pandas        |
+| Deployment        | Docker, Render       |
+| Version Control   | Git & GitHub         |
 
-☁️ Cloud deployment on Render
+---
 
-🛠️ Tech Stack
+## 📂 Project Structure
 
-Category	    Technologies
-Language	    Python 3.10+
+```
+rl-delivery-dispatcher/
+├── app/                # Backend application code
+├── models/             # RL agent and training logic
+├── static/             # Static assets (CSS, JS)
+├── templates/           # HTML templates
+├── requirements.txt
+├── Dockerfile
+└── README.md
+```
 
-Backend     	Flask / FastAPI
+---
 
-AI            Reinforcement Learning
+## 🚀 Installation
 
-Libraries	    NumPy, Pandas
+```bash
+# Clone the repository
+git clone https://github.com/wycliffe479/rl-delivery-dispatcher.git
+cd rl-delivery-dispatcher
 
-Deployment	  Docker, Render
+# Install dependencies
+pip install -r requirements.txt
 
-Version Control	Git & GitHub
+# Run locally
+python app.py
+```
 
+Open your browser at: `http://localhost:5000`
 
-📂 Project Structure
+---
 
-🚀 Installation
-Clone the repository
-Install dependencies
-Run locally
+## 🐳 Run with Docker
 
-Open:
+```bash
+# Build the Docker image
+docker build -t rl-delivery-dispatcher .
 
-🐳 Run with Docker
+# Run the container
+docker run -p 5000:5000 rl-delivery-dispatcher
+```
 
-Build the Docker image:
+Open your browser at: `http://localhost:5000`
 
-Run the container:
+---
 
-Open:
+## 🎯 Objectives
 
-🎯 Objectives
+- Minimize delivery time
+- Reduce driver travel distance
+- Improve dispatch efficiency
+- Learn optimal delivery strategies using Reinforcement Learning
 
-Minimize delivery time
-Reduce driver travel distance
-Improve dispatch efficiency
-Learn optimal delivery strategies using Reinforcement Learning
+---
 
+## 🚀 Future Improvements
 
-🚀 Future Improvements
-Multiple RL algorithms (DQN, PPO, A2C)
-Traffic-aware routing
-Multi-city simulations
-Interactive maps
-Advanced analytics dashboard
+- [ ] Multiple RL algorithms (DQN, PPO, A2C)
+- [ ] Traffic-aware routing
+- [ ] Multi-city simulations
+- [ ] Interactive maps
+- [ ] Advanced analytics dashboard
 
+---
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 
-Fork the repository
-Create a feature branch
-Commit your changes
-Push to GitHub
-Open a Pull Request
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m "Add your feature"`)
+4. Push to GitHub (`git push origin feature/your-feature`)
+5. Open a Pull Request
 
-⭐ Support
+---
+
+## ⭐ Support
 
 If you found this project useful, please consider giving it a ⭐ on GitHub.
 
-👨‍💻 Author
+---
 
-Wycliffe
+## 👨‍💻 Author
 
-GitHub: https://github.com/wycliffe479
+**Wycliffe**
+GitHub: [@wycliffe479](https://github.com/wycliffe479)
 
-📄 License
+---
 
-This project is licensed under the MIT License.
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
